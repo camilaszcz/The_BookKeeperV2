@@ -6,7 +6,7 @@ from my_library.models import Book, Status, Language
 
 # Create your views here.
 def index(request):
-    return render(request, 'homepage.html')
+    return render(request, 'index.html')
 
 
 def about(request):
